@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Lista de Membros</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Lista de Membros</h1>
+
+    <form id="member-form">
+      <div>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <div>
+        <label for="age">Idade:</label>
+        <input type="number" id="age" name="age" required>
+      </div>
+
+      <div>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div>
+        <label for="phone">Telefone:</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+
+      <div>
+        <label for="class">Turma:</label>
+        <select id="class" name="class" required>
+          <option value="">Selecione uma turma</option>
+          <option value="9°Ano A">9°Ano A</option>
+        </select>
+      </div>
+
+      <button type="submit">Adicionar</button>
+    </form>
+
+    <ul id="member-list"></ul>
+
+    <script src="members.js"></script>
+  </body>
+</html>

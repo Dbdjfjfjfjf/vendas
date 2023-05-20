@@ -1,0 +1,22 @@
+.bg-orange{
+
+    background:linear-gradient(to bottom, #ffaf4b 0%,#ff920a 100%);
+}
+
+.center{
+    text-align: center;
+}
+
+.logo
+{
+    padding:20px; 
+}
+.btnCard
+{
+    margin: 10px auto 30px auto;
+}
+
+.btnCard .btn
+{
+    margin-right: 10px;
+}
